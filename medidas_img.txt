@@ -1,0 +1,27 @@
+
+Section 2
+main 298_456
+right_up 178_218
+left 204_285
+right_bottom 164_258
+
+Section 3
+main 400_420 ->buen roloo con tu futuro hogar
+main_child1 90_130 -> cama
+main_child2 90_130 -> sillon
+main_child3 90_130 -> sala de estar
+
+right_up 223_235 ->dormitorio escandivano
+right_center 165_173->terraza
+
+
+right_bottom 223_235->renovación de baño
+center_bottom 223_235 -> servir bebida
+
+
+
+#fullpage-wrapper > div.section.fp-section.fp-table.active.fp-completely > div > div > div.fp-scroller > div > div.Jea.XiG.a3i.gjz.lnZ.zI7.iyn.Hsu > div > div:nth-child(1) > div > div.MIw.lnZ.zI7.iyn.Hsu > div > div.hs0.un8.tkf.TB_ > div:nth-child(1) > div > div > div
+<div aria-label="cama de tu futuro hogar que da buen rollo" class="zIH PC4 XiG" role="img" style="background-color: transparent; background-image: url(&quot;https://s.pinimg.com/webapp/future-home1-f4037b6b.png&quot;);"></div>
+
+<div aria-label="sillón de tu futuro hogar que da buen rollo" class="zIH PC4 XiG" role="img" style="background-color: transparent; background-image: url(&quot;https://s.pinimg.com/webapp/future-home2-c70a8738.png&quot;);"></div>
+background-color: transparent; background-image: url("https://s.pinimg.com/webapp/future-home3-ac09e50f.png");
