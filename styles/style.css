@@ -122,15 +122,123 @@ img {
     bottom: 0;
 }
 
-
-#page2 .page2-title {
-    width: 50%;
-    text-align: center;
+#page2 {
+    background-color: #FFFD92;
 }
 
-#page2 .page2-img {
-    
+.page2-img {
+    display: flex;
+    justify-content: center;
     width: 50%;
+}
+
+.page2-img-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 477px;
+    height: 611px;
+    cursor: pointer;
+}
+
+#page2-img-top-right {
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    right: 0;
+    top: 0;
+    width: 178px;
+    height: 218px;
+}
+
+#page2-img-center {
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    right: 60px;
+    top: -130px;
+    width: 298px;
+    height: 456px;
+    z-index: 1;
+}
+.page2-img-container-img-btn {
+    position:absolute;
+    display: flex;
+    width: 316px;
+    height: 100px;
+    top: 33%;
+    left: -60px;
+}
+
+
+.page2-img-container-img-btn-i {
+    position: absolute;
+    bottom: 50%;
+    left: 2%;
+}
+.page2-img-container-img-btn button {
+    font-size: 24px;
+    color: rgb(110, 15, 60);
+    font-weight: bold;
+    background-color: white;
+    border-radius: 70px;
+    width: 300px;
+ 
+}
+
+#page2-img-center-left {
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    top: 26%;
+    width: 204px;
+    height: 285px;
+
+
+}
+
+#page2-img-bottom-right {
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    width: 164px;
+    height: 258px;
+    left: 0;
+    top: -320px;
+}
+
+
+.page2-title {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page2-title-h2 h2 {
+    color: rgb(195, 25, 82);
+    font-size: 60px;
+    font-weight: 700;
+    padding: 40px 0;
+}
+
+.page2-title-p {
+    width: 400px;
+    height: 163px;
+}
+.page2-title-p p {
+    color: rgb(195, 25, 82);
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+.page2-title-btn button {
+    color: rgb(255, 253, 158);
+    background-color: rgb(195, 25, 82);
+    padding: 1px 20px;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 
@@ -224,7 +332,7 @@ img {
 .page3-imgs-container-left{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 55%;
     margin-top: 40px;
     
 }
@@ -277,13 +385,13 @@ img {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 50%;
+    width: 45%;
 }
 
 #page3-imgs-right-top-1 {
     display: flex;
     align-self: flex-end;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 #page3-imgs-container-right-text {
