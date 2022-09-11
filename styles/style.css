@@ -185,13 +185,16 @@ img {
 .page3-title-description p {
     font-size: 24px;
     color: rgb(0, 107, 108);
+    
 }
 
 .page3-title-description button{
     font-size: 16px;
     font-weight: bold;
     color: rgb(204, 246, 238);
-    background-color: rgb(0, 107, 108);;
+    background-color: rgb(0, 107, 108);
+    padding: 0px 20px;
+    margin: 20px 0px;
 
 }
 
