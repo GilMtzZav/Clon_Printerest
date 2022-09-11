@@ -129,6 +129,7 @@ img {
 }
 
 #page2 .page2-img {
+    
     width: 50%;
 }
 
@@ -138,25 +139,31 @@ img {
     flex-direction: row;
     background-color: rgb(218, 255, 246);
     height: 100vh;
-    gap: 10px;
+    gap: 1px;
 }
 
 .page3-img-smallest{
     width: 90px; 
     height: 130px;
+    cursor: pointer;
 }
 
 .page3-imgs-small{
+    cursor: pointer;
     width: 165px; 
     height: 173px;
 }
 
 .page3-imgs-med{
+    cursor: pointer;
+    position: relative;
     width: 223px; 
     height: 235px;
 }
 
 .page3-imgs-big{
+    cursor: pointer;
+    position: relative;
     width: 400px; 
     height: 420px;
 }
@@ -165,8 +172,6 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
-    /* text-align: center; */
     color: RGB(0, 107, 108);
     width: 50%;
     height: 100vh;
@@ -175,7 +180,6 @@ img {
 .page3-title h2 {    
     font-size: 60px;
     font-weight: 700;
-    /* text-align: start; */
 }
 
 .page3-title-description {
@@ -195,84 +199,141 @@ img {
     background-color: rgb(0, 107, 108);
     padding: 0px 20px;
     margin: 20px 0px;
-
 }
 
 
 .page3-imgs {
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
     width: 50%;
     height: 100vh;
     gap: 10px;
 }
 
-.page3-imgs-left{
+
+.page3-imgs-container {
     position: relative;
     display: flex;
+    width: 687px;
+    height: 695px;
+    color: white;
+}
+
+
+.page3-imgs-container-left{
+    display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    padding-top: 50px;
-    /* align-items: center; */
-    width: 60%;
-}
-
-.page3-imgs-left-top {
+    width: 50%;
+    margin-top: 40px;
     
-    display: flex;
-    color: white;
 }
-.page3-imgs-left-top-title {
-    display: absolute;
-    right: 0;
+
+
+#page3-imgs-text {
+    position: absolute;
+    font-size: 56px;
+    font-weight: 500;
+    left: 0;
     top: 0;
+    width: 328px;
+    height: 370px;
+    margin: 10px 20px ;
 }
 
-
-.page3-imgs-left-center{
+.page3-img-smallest-container{
     position: absolute;
-    top: 60%;
-    left: 10%;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     gap: 10px;
+    width: 420px;
+    height: 130px;
+    top: 58%;
 }
 
- .page3-imgs-left-bottom {
-    position: absolute;
-    bottom: -40px;
-    right: 10px;
-} 
+#page3-imgs-left-bottom-1 {
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    /* left: 25%; */
+    bottom: -20px;
+}
 
-.page3-imgs-left-bottom-title {
-    position: absolute;
-    color: white;
+#page3-imgs-left-bottom-1-text {
     font-size: 28px;
     font-weight: 500;
-    padding: 15px 15px;
-    right: 0%;
-    top: 30%;
+    position: absolute;
+    width: 223px;
+    height: 175px;
+    padding: 10px 30px;
+    text-align: start;
+    margin-top: 80px;
+    top: 0;
+    left: 0;
 }
 
-
-
-.page3-imgs-right{
+.page3-imgs-container-right {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    width: 40%;
+    gap: 20px;
+    width: 50%;
 }
 
-#page3-imgs-right-blank {
-    height: 80px;
-}
-.page3-imgs-right-top{
+#page3-imgs-right-top-1 {
     display: flex;
-    justify-content: flex-end;
+    align-self: flex-end;
+    margin-top: 40px;
+}
+
+#page3-imgs-container-right-text {
+    font-size: 28px;
+    font-weight: 500;
+    position: absolute;
+    width: 223px;
+    height: 175px;
+    padding: 10px 30px;
+    text-align: start;
+    margin-top: 80px;
+    top: 0;
+    left: 0;
+}
+
+#page3-imgs-right-center-1 {
+    position: relative;
+    display: flex;
+    align-self: center;
+}
+
+#page3-imgs-right-center-1-text {
+    font-size: 20px;
+    font-weight: 500;
+    position: absolute;
+    width: 165px;
+    height: 78px;
+    padding: 5px 10px;
+    text-align: start;
+    margin-top: 80px;
+    top: 0;
+    left: 0;
 }
 
 
-.page3-imgs-right-center{
-    display: flex;
-    justify-content: center;
+#page3-imgs-right-bottom-1 {
+    margin-left: 70px;
+}
+
+#page3-imgs-right-bottom-1-text {
+    font-size: 28px;
+    font-weight: 500;
+    position: absolute;
+    width: 223px;
+    height: 175px;
+    padding: 10px 30px;
+    text-align: start;
+    margin-top: 80px;
+    top: 0;
+    left: 0;
 }
 
 
