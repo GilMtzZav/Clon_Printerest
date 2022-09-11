@@ -286,6 +286,7 @@ img {
     height: 100%;
     width: 50%;
     object-fit: cover;
+    cursor: pointer;
 }
 
 .page4-img img {
@@ -297,8 +298,8 @@ img {
     position: absolute;
     color: white;
     text-align: center;
-    top: 15%;
-    left: 115px;
+    top: 38%;
+    left: 98px;
 }
 .page4-img-container-img {
     width: 215px;
@@ -345,6 +346,10 @@ img {
 }
 
 .page4-title-container-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 484px;
     height: 435.5px;
 }
@@ -366,6 +371,9 @@ img {
     margin-top: 16px;
 }
 
+.page4-title-btn{
+    width: 484px;
+}
 .page4-title-btn button {
     height: 48px;
     width: 93px;
@@ -374,6 +382,7 @@ img {
     font-size: 16px;
     text-align: center;
     font-weight: bold;
+    margin: 40px 10px;
 }
 
 
